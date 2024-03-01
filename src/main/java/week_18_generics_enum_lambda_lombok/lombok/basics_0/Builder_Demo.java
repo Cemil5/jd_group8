@@ -19,10 +19,11 @@ public class Builder_Demo {
         Teacher teacher = Teacher.builder()
                 .name("Ozzy")
                 .surname("Any")
-                .courses(Arrays.asList("English", "French"))
-                .year(2002)
+//                .courses(Arrays.asList("English", "French"))
+//                .year(2002)
                 .build();
 
+        teacher.setYear(1850);
         System.out.println(teacher);
     }
 }
