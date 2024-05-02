@@ -46,7 +46,7 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
     // Time Complexity: O (n)
     // Space Complexity: O (1)
-    static int withOneLoop(int[] prices) {
+    public static int withOneLoop(int[] prices) {
         int minBuy = prices[0];
         int maxProfit = 0;
         for (int i = 1; i < prices.length; i++) {
@@ -63,7 +63,7 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
     // Time Complexity: O (n)
     // Space Complexity: O (1)
-    public int withForEachLoop(int[] prices) {
+    public static int withForEachLoop(int[] prices) {
         int min = Integer.MAX_VALUE;
         int profitSoFar =0;
         int currentProfit;
