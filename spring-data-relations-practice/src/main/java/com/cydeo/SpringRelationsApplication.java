@@ -16,7 +16,7 @@ public class SpringRelationsApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringRelationsApplication.class, args);
 
-        repository.findAll().forEach(r -> System.out.println(r.getId() + " : " + r.getName()));
+//        repository.findAll().forEach(r -> System.out.println(r.getId() + " : " + r.getName()));
     }
 
 }
